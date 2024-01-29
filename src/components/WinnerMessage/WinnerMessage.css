@@ -1,0 +1,30 @@
+.message-box {
+    border-radius: 10px;
+    border: 6px solid grey;
+    background-color: white;
+    width: 25vh;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#message {
+    margin: 4px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.replay-button {
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.replay-button:hover {
+    color: white;
+    background-color: grey;
+}

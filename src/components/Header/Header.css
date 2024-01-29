@@ -1,0 +1,33 @@
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(32, 102, 25, 0.444);
+    height: 100%;
+}
+
+#game-name {
+    padding: 8px;
+    font-style: italic;
+    width: 20%;
+    text-align: center;
+    align-self: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#player-1 {
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: blue;
+    width: 20%;
+    text-align: center;
+}
+
+#player-2 {
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: red;
+    width: 20%;
+    text-align: center;
+}

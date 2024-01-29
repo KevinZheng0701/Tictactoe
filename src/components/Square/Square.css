@@ -1,0 +1,16 @@
+.square {
+    height: 10vw;
+    width: 10vw;
+    background-color: white;
+    border: 4px solid whitesmoke;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 3px;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.square:hover {
+    background-color: gray;
+}
